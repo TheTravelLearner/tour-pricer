@@ -1,0 +1,17 @@
+/* --- Global Optimizations by Professor AI --- */
+
+/* 1. Set a smaller base font size */
+:root {
+  font-size: 15px;
+}
+
+/* 2. Force centering with Flexbox */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical centering */
+  align-items: center;    /* Horizontal centering */
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--pico-secondary-background);
+}
